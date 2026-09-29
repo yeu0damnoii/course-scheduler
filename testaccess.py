@@ -8,16 +8,3 @@ courseoption = {
             {"classNumber":12348, "session":[ {"day":3, "start":8.1, "end":10}, {"day":4, "start":12.1, "end":14}]}
         ]
 }
-'''
-print(courseoption["comp1002Tut"][0]["session"][0]["start"])
-
-for classNumber in courseoption["comp1002Tut"]:
-    for session in classNumber["session"]:
-        print(session["start"])
-'''
-
-
-classesStart=list(range(8,17))
-for i in range(len(classesStart)):
-    classesStart[i] +=0.1
-print(classesStart)
